@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local User</title>
+    <link rel="stylesheet" href="ex14local.css">
+</head>
+<body>
+    <form action="local" id="local">
+        <div class="local-container">
+        <label for="userid">User Id</label>
+        <input type="text" name="id" id="id">
+        
+        <label for="password">Password</label>
+        <input type="password" id="password">
+        <h4>forgot password?</h4>
+        <br>
+        <button onclick="login()">Login</button>
+        <button onclick="logout()">logout</button>
+     <p id="status"></p>
+    </div>
+    </form>
+</body>
+<script
+src="ex14local.js"></script>
+</html>
